@@ -1,14 +1,24 @@
+body{
+    background-color: #A5C9CA
+    ;
+}
+ 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#395B64;
+}
+
 .menu{
     list-style: none;
     padding: 0%;
-    background: #092327;
+    background: #395B64;
     width: 90%;
     max-width: 1000px;
     margin: auto;
 }
 
 .menu li a{
-    text-decoration: none;
+    text-decoration: darkgray;
     color: white;
     padding: 20px;
     display: block;
@@ -17,8 +27,31 @@
 .menu li{
     display: inline-block;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu li a:hover{
     background: #ef8354;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: #2C3333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p{
+    text-justify: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    text-justify: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
